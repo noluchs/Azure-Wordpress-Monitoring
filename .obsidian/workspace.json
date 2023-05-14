@@ -16,8 +16,21 @@
                 "file": "Planung.md"
               }
             }
+          },
+          {
+            "id": "719d8a6c64466c3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planung.md",
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planung.md",
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planung.md"
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md"
               }
             }
           }
@@ -144,10 +157,15 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "c461e7802a4557db",
+  "active": "719d8a6c64466c3a",
   "lastOpenFiles": [
-    "Unbenannt.md",
     "Planung.md",
-    "README.md"
+    "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
+    "README.md",
+    "Unbenannt.canvas",
+    "2023-05-03.md",
+    "Monitoring Azure",
+    "Aufbau Azure Wordpress",
+    "Unbenannt.md"
   ]
 }

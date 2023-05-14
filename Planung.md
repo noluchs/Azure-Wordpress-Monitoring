@@ -4,11 +4,32 @@ kanban-plugin: basic
 
 ---
 
-## Azure Monitoring
+## Pool
 
 
 
-## Azure DB
+## Freiggeben
+
+- [ ] Linux VM Aufsetzen
+- [ ] Wordpress Instalieren
+- [ ] DB Aufbau
+- [ ] DB mit WP Verbinden
+
+
+## Spezifikation
+
+
+
+## Impletation
+
+- [ ] Azure Monitoring EInlesen
+
+
+## Intergration
+
+
+
+## Test
 
 
 
