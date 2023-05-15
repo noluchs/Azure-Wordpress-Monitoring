@@ -10,10 +10,7 @@ kanban-plugin: basic
 
 ## Freiggeben
 
-- [ ] Linux VM Aufsetzen
-- [ ] Wordpress Instalieren
-- [ ] DB Aufbau
-- [ ] DB mit WP Verbinden
+- [ ] Monitoring Aufbauen
 
 
 ## Spezifikation
@@ -23,6 +20,11 @@ kanban-plugin: basic
 ## Impletation
 
 - [ ] Azure Monitoring EInlesen
+- [ ] Linux VM Aufsetzen
+- [ ] Wordpress Instalieren
+- [ ] DB Aufbau
+- [ ] DB mit WP Verbinden
+- [ ] Dokumentieren
 
 
 ## Intergration
