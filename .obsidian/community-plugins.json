@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "oz-image-plugin",
-  "obsidian-kanban"
+  "obsidian-kanban",
+  "obsidian-languagetool-plugin",
+  "cmenu-plugin"
 ]
