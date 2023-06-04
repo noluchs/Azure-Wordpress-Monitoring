@@ -16,4 +16,11 @@ Monitoring beinhaltet folgende Punkte:
 ·       Kosten
 
 
+## Inhaltsverzeichnis
+#### Aufbau
+[[Aufbau Azure Wordpress/Aufbau Wordpress Cli]]
+#### Monitoring
+[[Monitoring Azure/App Service Wordpress]]
+[[Monitoring Azure/Azure MySQL]]
+
 
