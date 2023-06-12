@@ -50,7 +50,8 @@ WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
 
 
 ```
-az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings WORDPRESS_DB_HOST= azwpmo-mysql.mysql.database.azure.com WORDPRESS_DB_USER="wpadmin@azwpmo-mysql.mysql.database.azure.com" WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
+az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings WORDPRESS_DB_HOST= azwpmo-mysql.mysql.database.azure.com WORDPRESS_DB_USER="wpadmin@azwpmo-mysql" 
+WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
 ```
 
 

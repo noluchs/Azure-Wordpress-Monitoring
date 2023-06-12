@@ -9,11 +9,11 @@ Auf Azure einen App Services (Wordpress) und den Dienst Azure Database for MySQL
 
 Monitoring beinhaltet folgende Punkte:
 
-·       Uptime Dienste
-·       Erreichbarkeit Website über externe IP und DNS
-·       Speicherplatz
-·       Ressourcennutzung
-·       Kosten
+* Uptime Dienste
+* Erreichbarkeit Website über externe IP und DNS
+* Speicherplatz
+* Ressourcennutzung
+* Kosten
 
 
 ## Inhaltsverzeichnis
