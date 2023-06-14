@@ -15,6 +15,22 @@ Monitoring beinhaltet folgende Punkte:
 * Ressourcennutzung
 * Kosten
 
+## Zeitplan
+
+|   |   |   |
+|---|---|---|
+|**Task**|**Von**|**Bis**|
+|Einreichungsformular|14.04.2023|19.04.2023|
+|Recherche Azure Monitoring|19.04.2023|24.06.2023|
+|Dokumentation|20.04.2023|30.06.2023|
+|Umsetzung  **Wordpress mit DB**|20.04.2023|15.05.2023|
+|1. Sprint||15.05.2023|
+|Umsetzung **Azure Monitoring**|15.05.2023|14.06.2023|
+|2. Sprint||14.06.2023|
+|Offene Task|15.06.2023|11.07.2023|
+|Präsentation vorbereiten|30.06.2023|11.07.2023|
+|3. Sprint||12.07.2023|
+|Abgabe Arbeit||12.07.2023|
 
 ## Inhaltsverzeichnis
 #### Aufbau
