@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Zweiter Sprint.md",
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zweiter Sprint.md",
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Zweiter Sprint.md",
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Zweiter Sprint.md"
+                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md"
               }
             }
           }
@@ -157,17 +157,18 @@
   },
   "active": "77ef4b64d42476ba",
   "lastOpenFiles": [
-    "README.md",
-    "Zweiter Sprint.md",
     "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
+    "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
+    "Zweiter Sprint.md",
+    "Monitoring Azure/attachments/Pasted image 20230604160554.png",
+    "Monitoring Azure/attachments/Pasted image 20230604160540.png",
+    "Monitoring Azure/attachments/Pasted image 20230604160517.png",
+    "README.md",
     "Erster Sprint.md",
     "Planung.md",
     "Probleme.md",
     "Ressourcen.md",
     "Monitoring Azure/App Service Wordpress.md",
-    "Monitoring Azure/attachments/Pasted image 20230604160554.png",
-    "Monitoring Azure/attachments/Pasted image 20230604160540.png",
-    "Monitoring Azure/attachments/Pasted image 20230604160517.png",
     "Monitoring Azure/Azure MySQL.md",
     "Aufbau Azure Wordpress/attachments/Pasted image 20230604162641.png",
     "Aufbau Azure Wordpress/attachments",

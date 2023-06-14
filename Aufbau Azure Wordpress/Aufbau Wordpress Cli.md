@@ -10,18 +10,76 @@ mit diesem erstellen wir einen App service plan der auf Linux basiert
 az appservice plan create -g azwpmo-appservice -n azwpmo-appservice-plan  --is-linux -l switzerlandnorth --sku F1
 ```
 
+
+## Network
+
+
+### Create the virtual network
+
+```
+az network vnet create \   
+--name lucn-wordpress \   
+--resource-group azwpmo-appservice \   
+--address-prefixes 10.0.0.0/16
+```
+ 
+### Create subnet named appService
+
+
+```
+az network vnet subnet create \   
+--name appService \   
+--resource-group azwpmo-appservice \ 
+--vnet-name lucn-wordpress \   
+--address-prefixes 10.0.1.0/24 
+```
+
+### Create subnet named database
+
+```
+az network vnet subnet create \
+--name database \
+--resource-group azwpmo-appservice \
+--vnet-name MyWordpress \
+--address-prefixes 10.0.2.0/24 
+```
+
+### Delegate Subnets to azure services 
+
+```
+az network vnet subnet update \
+--name appService \
+--vnet-name MyWordpress \
+--resource-group azwpmo-appservice \
+--delegations Microsoft.Web/serverFarms 
+
+
+az network vnet subnet update \
+--name database \ 
+--vnet-name MyWordpress \
+--resource-group azwpmo-appservice \
+--delegations Microsoft.DBforMySQL/flexibleServers
+```
+
 ### Azure DB for MYSQL Erstellen
 
 Dies erstellt eine MYSQL Instanz mit einem Admin Account der ein definiertes Passwort hat
 ```
-az mysql server create -g azwpmo-appservice -n azwpmo-mysql  --admin-user wpadmin --admin-password "J9!3EklqIl1-LS,am3f" -l switzerlandnorth  --ssl-enforcement Disabled --sku-name B_Gen5_1 --version 5.7
+az mysql flexible-server create \
+-g azwpmo-appservice \
+-n azwpmo-mysql \
+--admin-user wpadmin \
+--admin-password "&9Fj9BFW%4gamAU7yIX4#IX36!" \
+-l switzerlandnorth  
+
+
 ```
 
 #### MySQL DB Firewall Konfigurieren
 
 Hier werden für die MySQL Datenbank die Firewall konfiguiert so dass der App Service der wir voher Konfiguriert hatt Zugriff darauf Erlaubt
 ```
-az mysql server firewall-rule create -g azwpmo-appservice --server azwpmo-mysql --name AllowAppService --start-ip-address 0.0.0.0 --end-ip-address 0.0.0.0
+az mysql server firewall-rule create -g azwpmo-appservice --server azwpmo-mysql --name AllowAppService --start-ip-address c --end-ip-address 0.0.0.0
 ```
 
 #### MySQL DB Wordpress Erstellen
