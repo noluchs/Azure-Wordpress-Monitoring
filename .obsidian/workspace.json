@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "66b6447fd0bbe475",
+        "id": "d678771933f282dd",
         "type": "tabs",
         "children": [
           {
-            "id": "77ef4b64d42476ba",
+            "id": "aacd62f65446f784",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
+                "file": "Sprint/Zweiter Sprint.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "82c02067fc3df432",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
+                "file": "Sprint/Zweiter Sprint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
+                "file": "Sprint/Zweiter Sprint.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Aufbau Azure Wordpress/Aufbau Wordpress Old.md"
+                "file": "Sprint/Zweiter Sprint.md"
               }
             }
           }
@@ -155,27 +155,33 @@
       "command-palette:Befehlspalette öffnen": false
     }
   },
-  "active": "77ef4b64d42476ba",
+  "active": "aacd62f65446f784",
   "lastOpenFiles": [
+    "README.md",
+    "Ressourcen.md",
+    "Kanban.md",
+    "Probleme.md",
+    "Sprint/Zweiter Sprint.md",
+    "Sprint/Erster Sprint.md",
+    "Sprint/attachments/Pasted image 20230615214543.png",
+    "Sprint/attachments",
+    "2023-06-15.md",
+    "Sprint",
+    "attachments/Pasted image 20230615204150.png",
+    "attachments",
+    "Unbenannt 1.canvas",
+    "Unbenannt.canvas",
     "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
     "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
-    "Zweiter Sprint.md",
     "Monitoring Azure/attachments/Pasted image 20230604160554.png",
     "Monitoring Azure/attachments/Pasted image 20230604160540.png",
     "Monitoring Azure/attachments/Pasted image 20230604160517.png",
-    "README.md",
-    "Erster Sprint.md",
-    "Planung.md",
-    "Probleme.md",
-    "Ressourcen.md",
     "Monitoring Azure/App Service Wordpress.md",
     "Monitoring Azure/Azure MySQL.md",
     "Aufbau Azure Wordpress/attachments/Pasted image 20230604162641.png",
     "Aufbau Azure Wordpress/attachments",
-    "Unbenannt",
     "Monitoring Azure/attachments",
     "Aufbau.md",
-    "Monitoring Azure/Unbenannt",
-    "Unbenannt.canvas"
+    "Monitoring Azure/Unbenannt"
   ]
 }

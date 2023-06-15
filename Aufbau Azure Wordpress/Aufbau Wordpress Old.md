@@ -16,7 +16,7 @@ az appservice plan create -g azwpmo-appservice -n azwpmo-appservice-plan  --is-l
 
 Dies erstellt eine MYSQL Instanz mit einem Admin Account der ein definiertes Passwort hat
 ```
-az mysql server create -g azwpmo-appservice -n azwpmo-mysql  --admin-user wpadmin --admin-password "J9!3EklqIl1-LS,am3f" -l switzerlandnorth  --ssl-enforcement Disabled --sku-name B_Gen5_1 --version 5.7
+az mysql server create -g azwpmo-appservice -n azwpmo-mysql  --admin-user wpadmin --admin-password "ayA05I92A@Jh1aq&RtiLQRwyU" -l switzerlandnorth  --ssl-enforcement Disabled --sku-name B_Gen5_1 --version 5.7
 ```
 
 #### MySQL DB Firewall Konfigurieren
@@ -30,7 +30,7 @@ az mysql server firewall-rule create -g azwpmo-appservice --server azwpmo-mysql 
 
 Hier wird nun die DB für Wordpress erstellt
 ```
-az mysql db create --resource-group azwpmo-appservice --server-name azwpmo-mysql --name azwpmo-wpdb
+az mysql db create --resource-group azwpmo-appservice --server-name azwpmo-mysql --name wordpress
 ```
 
 ### Web App erstellen
@@ -44,8 +44,8 @@ az webapp create -n lucn-azwmo -g azwpmo-appservice -p azwpmo-appservice-plan -i
 Setzt die DB Konfiguration auf der Wordpress Instanz und startet sie neu
 
 ```
-az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings WORDPRESS_DB_HOST= azwpmo-mysql.mysql.database.azure.com WORDPRESS_DB_USER="wpadmin@azwpmo-mysql" 
-WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
+az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings \ WORDPRESS_DB_HOST= azwpmo-mysql.mysql.database.azure.com \ WORDPRESS_DB_USER="wpadmin@azwpmo-mysql" \ 
+WORDPRESS_DB_PASSWORD="ayA05I92A@Jh1aq&RtiLQRwyU
 ```
 
 
