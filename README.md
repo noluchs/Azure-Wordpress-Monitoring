@@ -15,6 +15,52 @@ Monitoring beinhaltet folgende Punkte:
 * Ressourcennutzung
 * Kosten
 
+## Projektphasen
+
+### Phase 1: Vorbereitung
+
+In dieser Phase wird das Einreichungsformular ausgefüllt und eine Recherche zum Azure Monitoring durchgeführt. Die Dokumentation wird ebenfalls in dieser Phase begonnen.
+
+#### Aufgaben
+
+- Einreichungsformular ausfüllen (14.04.2023 - 19.04.2023)
+- Recherche zum Azure Monitoring durchführen (19.04.2023 - 24.06.2023)
+- Dokumentation beginnen (20.04.2023 - 30.06.2023)
+
+### Phase 2: Umsetzung von Wordpress mit DB
+
+In dieser Phase wird ein App Service (Wordpress) und der Dienst Azure Database for MySQL (DB Wordpress) mit AZ CLI auf Azure erstellt. Dies bildet die Grundlage für die weitere Überwachung.
+
+#### Aufgaben
+
+- Erstellung eines App Service (Wordpress) auf Azure (20.04.2023 - 15.05.2023)
+- Erstellung des Dienstes Azure Database for MySQL (DB Wordpress) auf Azure (20.04.2023 - 15.05.2023)
+- Automatiseren per CLI (Script) des Aufsetzen von App Serivce & der Azure MySQL DB
+
+### Phase 3: Umsetzung von Azure Monitoring
+
+In dieser Phase wird das Azure Monitoring implementiert, um die Uptime der Dienste, die Erreichbarkeit der Website über externe IP und DNS, den Speicherplatz, die Ressourcennutzung und die Kosten zu überwachen. Wenn bestimmte Grenzwerte erreicht werden oder Dienste nicht mehr aktiv sind, werden Notifikationen (Alerts) versendet.
+
+#### Aufgaben
+
+- Implementierung des Azure Monitorings zur Überwachung der Ressourcen der Dienste (15.05.2023 - 14.06.2023)
+- Implementierung des Azure Monitorings zur Überwachung der Erreichbarkeit der Website über externe IP und DNS (15.05.2023 - 14.06.2023)
+- Implementierung des Azure Monitorings zur Überwachung des Speicherplatzes (15.05.2023 - 14.06.2023)
+- Implementierung des Azure Monitorings zur Überwachung der Ressourcennutzung (15.05.2023 - 14.06.2023)
+- Implementierung des Azure Monitorings zur Überwachung der Kosten (15.05.2023 - 14.06.2023)
+- Einrichtung von Notifikationen (Alerts) bei Erreichen bestimmter Grenzwerte oder bei Inaktivität von Diensten (15.05.2023 - 14.06.2023)
+-
+### Phase 4: Abschluss
+
+In dieser Phase werden offene Aufgaben erledigt und die Dokumentation fertiggestellt. Die Arbeit wird schließlich abgegeben.
+
+#### Aufgaben
+
+- Erledigung offener Aufgaben 15.06.2023-08.07.2023
+- Vorbereitung der Präsentation 15.06.2023-08.07.2023
+- Abschliessen der DOkumentation 15.06.2023-10.07.2023
+- Abgabe der Arbeit (12.07.2023)
+
 ## Zeitplan
 
 |   |   |   |

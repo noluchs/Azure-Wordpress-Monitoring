@@ -15,7 +15,6 @@ kanban-plugin: basic
 - [ ] Monitroring Speicherplatz
 - [ ] Monitoring & Allert Kosten
 - [ ] Monitoring Aufbauen
-- [ ] Monitoring Ressourcennutzung
 
 
 ## Spezifikation
@@ -26,7 +25,7 @@ kanban-plugin: basic
 ## Impletation
 
 - [ ] Dokumentieren
-- [ ] DB mit WP Verbinden
+- [ ] Monitoring Ressourcennutzung
 
 
 ## Intergration
@@ -36,6 +35,7 @@ kanban-plugin: basic
 - [ ] Wordpress Instalieren
 - [ ] Linux VM Aufsetzen
 - [ ] DB Aufbau
+- [ ] DB mit WP Verbinden
 
 
 ## Test
