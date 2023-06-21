@@ -10,4 +10,4 @@ Im Ziel vom ersten Sprint konnten die geplanten Ziele mehrheitlich erreicht werd
 
 
 ## Kanban Board
-![[attachments/Pasted image 20230615214543.png]]
+![](attachments/Pasted%20image%2020230615214543.png)

@@ -3,5 +3,6 @@
   "oz-image-plugin",
   "obsidian-kanban",
   "obsidian-languagetool-plugin",
-  "cmenu-plugin"
+  "cmenu-plugin",
+  "obsidian-link-converter"
 ]

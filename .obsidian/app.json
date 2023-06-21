@@ -3,5 +3,6 @@
   "newFileLocation": "current",
   "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "./attachments"
+  "attachmentFolderPath": "./attachments",
+  "useMarkdownLinks": true
 }

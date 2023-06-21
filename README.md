@@ -15,6 +15,22 @@ Monitoring beinhaltet folgende Punkte:
 * Ressourcennutzung
 * Kosten
 
+
+## Inhaltsverzeichnis
+#### Aufbau
+[[Aufbau Azure Wordpress/Aufbau Wordpress Cli]]
+#### Monitoring
+[[Monitoring Azure/App Service Wordpress]]
+[[Monitoring Azure/Azure MySQL]]
+
+#### Projektplanung
+##### Sprint
+[Erster Sprint](Sprint/Erster%20Sprint.md)
+[Zweiter Sprint](Sprint/Zweiter%20Sprint.md)
+
+##### Kanban
+
+
 ## Projektphasen
 
 ### Phase 1: Vorbereitung
@@ -77,12 +93,4 @@ In dieser Phase werden offene Aufgaben erledigt und die Dokumentation fertiggest
 |Präsentation vorbereiten|30.06.2023|11.07.2023|
 |3. Sprint||12.07.2023|
 |Abgabe Arbeit||12.07.2023|
-
-## Inhaltsverzeichnis
-#### Aufbau
-[[Aufbau Azure Wordpress/Aufbau Wordpress Cli]]
-#### Monitoring
-[[Monitoring Azure/App Service Wordpress]]
-[[Monitoring Azure/Azure MySQL]]
-
 

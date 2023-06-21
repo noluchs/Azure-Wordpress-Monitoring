@@ -12,7 +12,7 @@ kanban-plugin: basic
 
 - [ ] Montoring Uptime Dienst
 - [ ] Monitoring ·Ereichbarkeit Website über externe IP und DNS
-- [ ] Monitroring Speicherplatz
+- [ ] Monitroring Speicherplatz DB
 - [ ] Monitoring & Allert Kosten
 - [ ] Monitoring Aufbauen
 
