@@ -17,4 +17,4 @@ Für den letzten Sprint muss ich nochmals Zeit investieren dass bis an dem 26. J
 
 
 ### Kanban 
-![[attachments/Pasted image 20230615204150.png]]
+![Pasted image 20230615204150](Pasted%20image%2020230615204150.png)
