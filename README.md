@@ -1,10 +1,12 @@
 # Azure-Wordpress-Monitoring
 
-## Problematik
+## Projektbeschreib
+
+### Problematik
 
 Die Webseite läuft momentan noch bei einem Web Hoster und sollte auf die Azure migriert werden. Die Hauptanforderung dieser Semesterarbeit ist eine Überwachung der Azure Services zu implementieren, um somit einen störungsfreien Betrieb der Webseite zu gewährleisten. Die laufenden Betriebskosten sollen ebenfalls überwacht werden.
 
-## Ziel
+### Ziel
 Auf Azure einen App Services (Wordpress) und den Dienst Azure Database for MySQL (DB Wordpress) mit AZ CLI erstellen. Diese Umgebung wird dann mit Azure Monitoring laufend geprüft und falls gewisse Grenzwerte erreicht oder Dienste nicht mehr aktiv sind, werden Notifikationen (Alerts) versendet.
 
 Monitoring beinhaltet folgende Punkte:
@@ -17,11 +19,11 @@ Monitoring beinhaltet folgende Punkte:
 
 
 ## Inhaltsverzeichnis
-#### Aufbau
-[[Aufbau Azure Wordpress/Aufbau Wordpress Cli]]
-#### Monitoring
-[[Monitoring Azure/App Service Wordpress]]
-[[Monitoring Azure/Azure MySQL]]
+#### Aufbau Instanz
+[Aufbau Wordpress MySQL Cli](Aufbau%20Azure%20Wordpress/Aufbau%20Wordpress%20MySQL%20Cli.md)
+#### Aufbau Monitoring
+[App Service Wordpress](Monitoring%20Azure/App%20Service%20Wordpress.md)
+[Azure MySQL](Monitoring%20Azure/Azure%20MySQL.md)
 
 #### Projektplanung
 ##### Sprint
@@ -29,6 +31,8 @@ Monitoring beinhaltet folgende Punkte:
 [Zweiter Sprint](Sprint/Zweiter%20Sprint.md)
 
 ##### Kanban
+[Kanban](Kanban.md)
+
 
 
 ## Projektphasen

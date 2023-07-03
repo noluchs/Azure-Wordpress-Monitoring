@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 340.5
   },
   "right": {
     "id": "82c02067fc3df432",
@@ -157,14 +157,16 @@
   },
   "active": "aacd62f65446f784",
   "lastOpenFiles": [
+    "Monitoring Azure/App Service Wordpress.md",
+    "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
+    "Aufbau Azure Wordpress/Aufbau Wordpress MySQL Cli.md",
+    "README.md",
+    "Sprint/Dritter Sprint.md",
     "Sprint/Erster Sprint.md",
     "Unbenannt.canvas",
     "Sprint/attachments/Pasted image 20230615214543.png",
     "Sprint/Zweiter Sprint.md",
-    "Monitoring Azure/App Service Wordpress.md",
     "Monitoring Azure/attachments/Pasted image 20230604160517.png",
-    "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
-    "Aufbau Azure Wordpress/Aufbau Wordpress Cli.md",
     "Kanban.md",
     "Probleme.md",
     "2023-06-21.md",
@@ -172,7 +174,6 @@
     "Monitoring Azure/attachments/Pasted image 20230621133605.png",
     "Monitoring Azure/attachments/Pasted image 20230621133249.png",
     "Monitoring Azure/attachments/Pasted image 20230621132948.png",
-    "README.md",
     "Monitoring Azure/attachments/Pasted image 20230619210941.png",
     "Monitoring Azure/attachments/Pasted image 20230619210906.png",
     "Ressourcen.md",
