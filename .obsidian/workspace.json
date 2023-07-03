@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sprint/Erster Sprint.md",
+                "file": "Monitoring Azure/App Service Wordpress.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sprint/Erster Sprint.md",
+                "file": "Monitoring Azure/App Service Wordpress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sprint/Erster Sprint.md",
+                "file": "Monitoring Azure/App Service Wordpress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sprint/Erster Sprint.md"
+                "file": "Monitoring Azure/App Service Wordpress.md"
               }
             }
           }
@@ -157,11 +157,18 @@
   },
   "active": "aacd62f65446f784",
   "lastOpenFiles": [
+    "Monitoring Azure/attachments/Pasted image 20230703150013.png",
+    "Monitoring Azure/attachments/Pasted image 20230703145958.png",
+    "Monitoring Azure/attachments/Pasted image 20230703145946.png",
+    "Monitoring Azure/attachments/Pasted image 20230703145655.png",
+    "Monitoring Azure/attachments/Pasted image 20230703144225.png",
+    "Monitoring Azure/attachments/Pasted image 20230703144105.png",
+    "Monitoring Azure/Azure MySQL.md",
+    "Kanban.md",
+    "Sprint/Dritter Sprint.md",
     "Sprint/Zweiter Sprint.md",
     "Sprint/Erster Sprint.md",
     "Probleme.md",
-    "Kanban.md",
-    "Sprint/Dritter Sprint.md",
     "Monitoring Azure/App Service Wordpress.md",
     "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
     "README.md",
@@ -170,21 +177,15 @@
     "Sprint/attachments/Pasted image 20230615214543.png",
     "Monitoring Azure/attachments/Pasted image 20230604160517.png",
     "2023-06-21.md",
-    "Monitoring Azure/Azure MySQL.md",
     "Monitoring Azure/attachments/Pasted image 20230621133605.png",
     "Monitoring Azure/attachments/Pasted image 20230621133249.png",
     "Monitoring Azure/attachments/Pasted image 20230621132948.png",
-    "Monitoring Azure/attachments/Pasted image 20230619210941.png",
-    "Monitoring Azure/attachments/Pasted image 20230619210906.png",
     "Ressourcen.md",
     "Sprint/attachments",
     "2023-06-15.md",
     "Sprint",
-    "Sprint/attachments/Pasted image 20230615204150.png",
     "attachments",
     "Unbenannt 1.canvas",
-    "Monitoring Azure/attachments/Pasted image 20230604160554.png",
-    "Monitoring Azure/attachments/Pasted image 20230604160540.png",
     "Aufbau Azure Wordpress/attachments",
     "Monitoring Azure/attachments",
     "Aufbau.md",

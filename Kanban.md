@@ -10,11 +10,6 @@ kanban-plugin: basic
 
 ## Freiggeben
 
-- [ ] Montoring Uptime Dienst
-- [ ] Monitoring ·Ereichbarkeit Website über externe IP und DNS
-- [ ] Monitroring Speicherplatz DB
-- [ ] Monitoring & Allert Kosten
-- [ ] Monitoring Aufbauen
 
 
 ## Spezifikation
@@ -24,8 +19,13 @@ kanban-plugin: basic
 
 ## Impletation
 
+- [ ] Monitoring Aufbauen
 - [ ] Dokumentieren
 - [ ] Monitoring Ressourcennutzung
+- [ ] Montoring Uptime Dienst
+- [ ] Monitoring ·Ereichbarkeit Website über externe IP und DNS
+- [ ] Monitroring Speicherplatz DB
+- [ ] Monitoring & Allert Kosten
 
 
 ## Intergration
