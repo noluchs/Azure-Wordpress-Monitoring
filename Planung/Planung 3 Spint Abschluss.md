@@ -1,5 +1,6 @@
 # Planung Sprint Abschluss 06.07-11.07
 
+
 ## Donnerstag Abend 20Uhr - 24 Uhr
 ### Planung
 - [ ] Herausfinden wie Kosten Überwacht werden & Allerts gemacht werden wenn nicht geht dies in Dokumentation Beschreiben 45 Min
@@ -17,8 +18,8 @@
 ## Samstag 9Uhr- 12 Uhr, 13 Uhr -17 Uhr
 ### Plaung
 - [ ] Aufbau Umgebung Sauber Dokumetation Fertig
-- [ ]  
-- [ ] 
+- [ ] reale Website for Demo
+- [ ] Load Testing der Website
 - [ ] 
 - [ ] 
 
