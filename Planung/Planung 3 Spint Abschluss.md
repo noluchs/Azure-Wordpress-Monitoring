@@ -1,51 +1,50 @@
 # Planung Sprint Abschluss 06.07-11.07
+Dies ist die Planung für den Sprint 3 Abschluss. Das Ziel ist, dass ich dadurch bei der Planung die Ziele alle bis Projektabgabe erreiche, welche noch offen sind
 
-
-## Donnerstag Abend 20Uhr - 24 Uhr
+## Donnerstagabend 20Uhr - 24 Uhr
 ### Planung
-- [ ] Herausfinden wie Kosten Überwacht werden & Allerts gemacht werden wenn nicht geht dies in Dokumentation Beschreiben 45 Min
-- [ ] Alert Downtime App Service 15 Min
-- [ ] Alert Downtime MySQL 15 Min
-- [ ] Alert Speicherplatz App Service 30 Min
-- [ ] Pause 10 Min
-- [ ] Impeltierung Alert Website über externe IP und DNS
-- [ ] Alle Punkte von Monitoring umgesetzt
+- [ ] Herausfinden wie Kosten überwacht werden & allerts gemacht werden, wenn nicht geht dies in Dokumentation beschreiben 45 Min
+- [x] Alert Downtime App Service 15 Min
+- [x] Alert Downtime MySQL 15 Min
+- [x] Alert Arbeits Speicherplatz App Service 30 Min
+- [x] Pause 10 Min
+- [x] Impeltierung Alert Website über externe IP und DNS
+- [ ] alle Punkte von Monitoring umgesetzt
 
 ## Freitag 07.07
-### Plaung
+### Planung
 - [X] Pause
 
 ## Samstag 9Uhr- 12 Uhr, 13 Uhr -17 Uhr
-### Plaung
-- [ ] Aufbau Umgebung Sauber Dokumetation Fertig
+### Planung
+
+- [ ] Beschreiben bei Aufbau
+	- [ ] wieso welche grösse von Instanz
+	- [ ] Kosten 
+	- [ ] 
 - [ ] reale Website for Demo
 - [ ] Load Testing der Website
-- [ ] 
-- [ ] 
+- [ ]  Aufbau Umgebung Sauber Dokumentation Fertig
 
-## Sonntag 11 -19 Uhr, 20 Uhr - Ziele Umgesetzt
-### Plaung
+
+## Sonntag 11 -19 Uhr, 20 Uhr - Ziele umgesetzt
+### Planung
 - [ ] Monitoring Teil Dokumentieren 6 Stunden
-- [ ] Intro Schreiben  mit verlinkung auf alle Unterseiten
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Intro Schreiben  mit Verlinkung auf alle Unterseiten
 
-## Montag 20 Uhr- Ziele Umgesetzt
-### Plaung
-- [ ] Technische Dokumentation Fertig
+
+## Montag 20 Uhr- Ziele umgesetzt
+### Planung
+- [ ] technische Dokumentation Fertig
 - [ ] Sprint Abschluss 3 Schreiben
-- [ ] 
-- [ ] 
-- [ ] 
 
 
-## Dienstag 19 Uhr- Arbeit Fertig & Abgegeben
-### Plaung
 
+## Dienstag 19 Uhr- Arbeit Fertig & abgegeben
+### Planung
 - [ ] Fazit Semesterarbeit 
 - [ ] Korektur auf Fehler
-- [ ] Überprüfen ob alle Bilder & Co über Github ersichtlich sind
+- [ ] Überprüfen, ob alle Bilder & Co über Github ersichtlich sind
 
 
 

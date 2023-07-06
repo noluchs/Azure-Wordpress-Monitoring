@@ -11,15 +11,22 @@
 ![Pasted image 20230604160540](Pasted%20image%2020230604160540.png)
 ![Pasted image 20230604160554](Pasted%20image%2020230604160554.png)
 
+## Memory Usage over 90%
 
-### Test CPU Auslastung
+![](attachments/Pasted%20image%2020230706231142.png)
 
-![Pasted image 20230621132948](Pasted%20image%2020230621132948.png)
+![](attachments/Pasted%20image%2020230706231231.png)
+
+## Service Down
+
+![](attachments/Pasted%20image%2020230706232116.png)
+
+![](attachments/Pasted%20image%2020230706232139.png)
+![](attachments/Pasted%20image%2020230706232223.png)
 
 
-## Memory High über 180 MB
-![Pasted image 20230619210906](Pasted%20image%2020230619210906.png)
-![Pasted image 20230619210941](Pasted%20image%2020230619210941.png)
+
+
 
 
 ### Kosten Meldung
@@ -28,3 +35,14 @@
 Um eine Monatlich Meldung was der APP Service gekoster hatt habe ich einen Task erstellt der mir jeden Monat eine Meldung macht
 ![](attachments/Pasted%20image%2020230705215432.png)
 ![](attachments/Pasted%20image%2020230705215554.png)
+Alert
+
+### Availability Website
+### Domain
+Einrichten der Überprüfung
+![](attachments/Pasted%20image%2020230706205052.png)
+
+Einrichten der Benachrichtigung bei Ausfall dafür wurde beim Erstellen der Überwachung bereits ein Alert erstellt dieser muss aber noch so angepasst werden, das die Meldungen korrekt versendet werden
+![](attachments/Pasted%20image%2020230706212253.png)
+
+![](attachments/Pasted%20image%2020230706225721.png)

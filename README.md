@@ -1,4 +1,4 @@
-# Azure-Wordpress-Monitoring
+# Azure-WordPress-Monitoring
 
 ## Projektbeschreib
 
@@ -12,14 +12,14 @@ Auf Azure einen App Services (Wordpress) und den Dienst Azure Database for MySQL
 Monitoring beinhaltet folgende Punkte:
 
 * Uptime Dienste
-* Erreichbarkeit Website über externe IP und DNS
-* Speicherplatz
-* Ressourcennutzung
+* Erreichbarkeit, Website über externe IP und DNS
+* Speicherplatz,
+* Ressourcennutzung,
 * Kosten
 
 
 ## Inhaltsverzeichnis
-#### Aufbau Instanz
+#### Aufbau App Service & DB
 [Aufbau Wordpress MySQL Cli](Aufbau%20Azure%20Wordpress/Aufbau%20Wordpress%20MySQL%20Cli.md)
 #### Aufbau Monitoring
 [App Service Wordpress](Monitoring%20Azure/App%20Service%20Wordpress.md)
@@ -33,7 +33,22 @@ Monitoring beinhaltet folgende Punkte:
 ##### Kanban
 [Kanban](Kanban.md)
 
+## Zeitplan
 
+|   |   |   |
+|---|---|---|
+|**Task**|**Von**|**Bis**|
+|Einreichungsformular|14.04.2023|19.04.2023|
+|Recherche Azure Monitoring|19.04.2023|24.06.2023|
+|Dokumentation|20.04.2023|30.06.2023|
+|Umsetzung  **Wordpress mit DB**|20.04.2023|15.05.2023|
+|1. Sprint||15.05.2023|
+|Umsetzung **Azure Monitoring**|15.05.2023|14.06.2023|
+|2. Sprint||14.06.2023|
+|Offene Task|15.06.2023|11.07.2023|
+|Präsentation vorbereiten|30.06.2023|11.07.2023|
+|3. Sprint||12.07.2023|
+|Abgabe Arbeit||12.07.2023|
 
 ## Projektphasen
 
@@ -49,13 +64,13 @@ In dieser Phase wird das Einreichungsformular ausgefüllt und eine Recherche zum
 
 ### Phase 2: Umsetzung von Wordpress mit DB
 
-In dieser Phase wird ein App Service (Wordpress) und der Dienst Azure Database for MySQL (DB Wordpress) mit AZ CLI auf Azure erstellt. Dies bildet die Grundlage für die weitere Überwachung.
+In dieser Phase wird ein App-Service (Wordpress) und der Dienst Azure Database for MySQL (DB Wordpress) mit AZ CLI auf Azure erstellt. Dies bildet die Grundlage für die weitere Überwachung.
 
 #### Aufgaben
 
-- Erstellung eines App Service (Wordpress) auf Azure (20.04.2023 - 15.05.2023)
+- Erstellung eines App-Service (Wordpress) auf Azure (20.04.2023 - 15.05.2023)
 - Erstellung des Dienstes Azure Database for MySQL (DB Wordpress) auf Azure (20.04.2023 - 15.05.2023)
-- Automatiseren per CLI (Script) des Aufsetzen von App Serivce & der Azure MySQL DB
+- Automatiseren per CLI (Script) das Aufsetzen von App Serivce & der Azure MySQL DB
 
 ### Phase 3: Umsetzung von Azure Monitoring
 
@@ -78,23 +93,8 @@ In dieser Phase werden offene Aufgaben erledigt und die Dokumentation fertiggest
 
 - Erledigung offener Aufgaben 15.06.2023-08.07.2023
 - Vorbereitung der Präsentation 15.06.2023-08.07.2023
-- Abschliessen der DOkumentation 15.06.2023-10.07.2023
+- Abschliessen der Dokumentation 15.06.2023-10.07.2023
 - Abgabe der Arbeit (12.07.2023)
 
-## Zeitplan
 
-|   |   |   |
-|---|---|---|
-|**Task**|**Von**|**Bis**|
-|Einreichungsformular|14.04.2023|19.04.2023|
-|Recherche Azure Monitoring|19.04.2023|24.06.2023|
-|Dokumentation|20.04.2023|30.06.2023|
-|Umsetzung  **Wordpress mit DB**|20.04.2023|15.05.2023|
-|1. Sprint||15.05.2023|
-|Umsetzung **Azure Monitoring**|15.05.2023|14.06.2023|
-|2. Sprint||14.06.2023|
-|Offene Task|15.06.2023|11.07.2023|
-|Präsentation vorbereiten|30.06.2023|11.07.2023|
-|3. Sprint||12.07.2023|
-|Abgabe Arbeit||12.07.2023|
 
