@@ -17,7 +17,7 @@
 ## Samstag 9Uhr- 12 Uhr, 13 Uhr -17 Uhr
 ### Plaung
 - [ ] Aufbau Umgebung Sauber Dokumetation Fertig
-- [ ] Reale WP Webseite einspielen 
+- [ ]  
 - [ ] 
 - [ ] 
 - [ ] 
@@ -42,8 +42,7 @@
 ## Dienstag 19 Uhr- Arbeit Fertig & Abgegeben
 ### Plaung
 
-- [ ] 
-- [ ] Fazit Semesterarbeit
+- [ ] Fazit Semesterarbeit 
 - [ ] Korektur auf Fehler
 - [ ] Überprüfen ob alle Bilder & Co über Github ersichtlich sind
 
