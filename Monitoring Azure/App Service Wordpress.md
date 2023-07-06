@@ -20,3 +20,11 @@
 ## Memory High über 180 MB
 ![Pasted image 20230619210906](Pasted%20image%2020230619210906.png)
 ![Pasted image 20230619210941](Pasted%20image%2020230619210941.png)
+
+
+### Kosten Meldung
+#### Monatliches Mail
+
+Um eine Monatlich Meldung was der APP Service gekoster hatt habe ich einen Task erstellt der mir jeden Monat eine Meldung macht
+![](attachments/Pasted%20image%2020230705215432.png)
+![](attachments/Pasted%20image%2020230705215554.png)

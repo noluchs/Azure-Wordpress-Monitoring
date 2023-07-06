@@ -112,8 +112,9 @@ az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings W
 WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
 ```
 
-
-
+### Verbidnen App Service DB
+![](attachments/Pasted%20image%2020230705215022.png)
+![](attachments/Pasted%20image%2020230705215038.png)
 
 ### Aufräumen
 

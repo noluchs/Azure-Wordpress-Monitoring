@@ -19,9 +19,8 @@ kanban-plugin: basic
 
 ## Impletation
 
-- [ ] Monitoring Aufbauen
 - [ ] Dokumentieren
-- [ ] Monitoring Ressourcennutzung
+- [ ] Monitoring Aufbauen
 - [ ] Montoring Uptime Dienst
 - [ ] Monitoring ·Ereichbarkeit Website über externe IP und DNS
 - [ ] Monitroring Speicherplatz DB
@@ -30,16 +29,22 @@ kanban-plugin: basic
 
 ## Intergration
 
-- [ ] Wordpress Installation Automatisieren
-- [ ] Azure Monitoring EInlesen
-- [ ] Wordpress Instalieren
-- [ ] Linux VM Aufsetzen
-- [ ] DB Aufbau
 - [ ] DB mit WP Verbinden
+- [ ] Monitoring Ressourcennutzung
 
 
 ## Test
 
+
+
+## Erledigt
+
+**Fertiggestellt**
+- [x] Wordpress Installation Automatisieren
+- [x] Azure Monitoring EInlesen
+- [x] Wordpress Instalieren
+- [x] Linux VM Aufsetzen
+- [x] DB Aufbau
 
 
 

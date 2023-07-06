@@ -69,7 +69,7 @@ In dieser Phase wird das Azure Monitoring implementiert, um die Uptime der Diens
 - Implementierung des Azure Monitorings zur Überwachung der Ressourcennutzung (15.05.2023 - 14.06.2023)
 - Implementierung des Azure Monitorings zur Überwachung der Kosten (15.05.2023 - 14.06.2023)
 - Einrichtung von Notifikationen (Alerts) bei Erreichen bestimmter Grenzwerte oder bei Inaktivität von Diensten (15.05.2023 - 14.06.2023)
--
+
 ### Phase 4: Abschluss
 
 In dieser Phase werden offene Aufgaben erledigt und die Dokumentation fertiggestellt. Die Arbeit wird schließlich abgegeben.
