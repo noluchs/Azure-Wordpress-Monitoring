@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Monitoring Azure/App Service Wordpress.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Monitoring Azure/App Service Wordpress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Monitoring Azure/App Service Wordpress.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Monitoring Azure/App Service Wordpress.md"
               }
             }
           }
@@ -147,25 +147,27 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Neuen Canvas erstellen": false,
-      "switcher:Schnellauswahl öffnen": false,
-      "graph:Graphen-Ansicht öffnen": false,
-      "daily-notes:Heutige Notiz öffnen": false,
-      "templates:Vorlage einfügen": false,
-      "command-palette:Befehlspalette öffnen": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "aacd62f65446f784",
   "lastOpenFiles": [
+    "Aufbau Azure Wordpress/Aufbau Wordpress MySQL Cli.md",
+    "README.md",
+    "Ressourcen.md",
+    "Planung/Planung 3 Spint Abschluss.md",
     "Probleme.md",
     "Sprint/Dritter Sprint.md",
     "Sprint/attachments/Pasted image 20230615214543.png",
     "Sprint/Zweiter Sprint.md",
-    "Planung/Planung 3 Spint Abschluss.md",
     "Sprint/attachments/Pasted image 20230615204150.png",
     "Sprint/Erster Sprint.md",
     "Kanban.md",
-    "README.md",
     "Monitoring Azure/App Service Wordpress.md",
     "Monitoring Azure/attachments/Pasted image 20230706232223.png",
     "Monitoring Azure/attachments/Pasted image 20230706232139.png",
@@ -178,10 +180,8 @@
     "Monitoring Azure/attachments/Pasted image 20230706231142.png",
     "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
     "Planung",
-    "Aufbau Azure Wordpress/Aufbau Wordpress MySQL Cli.md",
     "Unbenannt.canvas",
     "2023-06-21.md",
-    "Ressourcen.md",
     "Sprint/attachments",
     "2023-06-15.md",
     "Sprint",
