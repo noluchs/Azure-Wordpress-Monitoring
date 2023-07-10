@@ -3,13 +3,13 @@ Dies ist die Planung für den Sprint 3 Abschluss. Das Ziel ist, dass ich dadurch
 
 ## Donnerstagabend 20Uhr - 24 Uhr
 ### Planung
-- [ ] Herausfinden wie Kosten überwacht werden & allerts gemacht werden, wenn nicht geht dies in Dokumentation beschreiben 45 Min
+- [x] Herausfinden wie Kosten überwacht werden & allerts gemacht werden, wenn nicht geht dies in Dokumentation beschreiben 45 Min
 - [x] Alert Downtime App Service 15 Min
 - [x] Alert Downtime MySQL 15 Min
 - [x] Alert Arbeits Speicherplatz App Service 30 Min
 - [x] Pause 10 Min
 - [x] Impeltierung Alert Website über externe IP und DNS
-- [ ] alle Punkte von Monitoring umgesetzt
+- [x] alle Punkte von Monitoring umgesetzt
 
 ## Freitag 07.07
 ### Planung
@@ -18,19 +18,16 @@ Dies ist die Planung für den Sprint 3 Abschluss. Das Ziel ist, dass ich dadurch
 ## Samstag 9Uhr- 12 Uhr, 13 Uhr -17 Uhr
 ### Planung
 
-- [ ] Beschreiben bei Aufbau
-	- [ ] wieso welche grösse von Instanz
-	- [ ] Kosten 
-	- [ ] 
 - [ ] reale Website for Demo
 - [ ] Load Testing der Website
-- [ ]  Aufbau Umgebung Sauber Dokumentation Fertig
+- [ ] Aufbau Umgebung sauber Dokumentation Fertig
 
 
 ## Sonntag 11 -19 Uhr, 20 Uhr - Ziele umgesetzt
 ### Planung
 - [ ] Monitoring Teil Dokumentieren 6 Stunden
 - [ ] Intro Schreiben  mit Verlinkung auf alle Unterseiten
+- [x] Kriterien für Bewertung lesen
 
 
 ## Montag 20 Uhr- Ziele umgesetzt

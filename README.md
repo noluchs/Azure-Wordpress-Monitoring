@@ -19,8 +19,8 @@ Monitoring beinhaltet folgende Punkte:
 
 
 ## Inhaltsverzeichnis
-#### Aufbau App Service & DB
-[Aufbau Wordpress MySQL Cli](Aufbau%20Azure%20Wordpress/Aufbau%20Wordpress%20MySQL%20Cli.md)
+
+[Aufbau App Service & DB](Aufbau%20Azure%20Wordpress/readme.md)
 #### Aufbau Monitoring
 [App Service Wordpress](Monitoring%20Azure/App%20Service%20Wordpress.md)
 [Azure MySQL](Monitoring%20Azure/Azure%20MySQL.md)
@@ -29,9 +29,9 @@ Monitoring beinhaltet folgende Punkte:
 ##### Sprint
 [Erster Sprint](Sprint/Erster%20Sprint.md)
 [Zweiter Sprint](Sprint/Zweiter%20Sprint.md)
-
+[Dritter Sprint](Sprint/Dritter%20Sprint.md)
 ##### Kanban
-[Kanban](Kanban.md)
+[Kanban](Planung/Kanban.md)
 
 ## Zeitplan
 

@@ -32,7 +32,7 @@
 ### Kosten Meldung
 #### Monatliches Mail
 
-Um eine Monatlich Meldung was der APP Service gekoster hatt habe ich einen Task erstellt der mir jeden Monat eine Meldung macht
+Um eine monatlich Meldung was der APP Service gekostet hat habe ich einen Task erstellt, der mir jeden Monat eine Meldung macht. 
 ![](attachments/Pasted%20image%2020230705215432.png)
 ![](attachments/Pasted%20image%2020230705215554.png)
 Alert
@@ -42,7 +42,7 @@ Alert
 Einrichten der Überprüfung
 ![](attachments/Pasted%20image%2020230706205052.png)
 
-Einrichten der Benachrichtigung bei Ausfall dafür wurde beim Erstellen der Überwachung bereits ein Alert erstellt dieser muss aber noch so angepasst werden, das die Meldungen korrekt versendet werden
+Einrichten der Benachrichtigung bei Ausfall, dafür wurde beim Erstellen der Überwachung bereits ein Alert erstellt dieser muss aber noch so angepasst werden, das die Meldungen korrekt versendet werden
 ![](attachments/Pasted%20image%2020230706212253.png)
 
 ![](attachments/Pasted%20image%2020230706225721.png)

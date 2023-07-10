@@ -4,5 +4,6 @@
   "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./attachments",
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "foldHeading": false
 }

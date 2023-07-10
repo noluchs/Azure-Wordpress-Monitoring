@@ -3,7 +3,7 @@
 
 # Umsetzung
 
-## CPU Hugh 
+## CPU High 
 
 ![[attachments/Pasted image 20230621133249.png]]
 
