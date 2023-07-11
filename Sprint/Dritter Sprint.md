@@ -5,7 +5,7 @@ Im dritten Sprint ging es darum, die ganze Arbeit fertig zu machen. Da ich in de
 
 ### Learnings für die nächste Semesterarbeit
 
-Ich habe bei diesem Projekt viel gelernt, was ich bei der nächsten Semesterarbeit besser machen werde. Sicherlich bei der Planung, ich habe das Projekt ohne genaue Planung begonnen und einfach drauf los gearbeitet. Leider habe ich so viel Zeit für unwichtige Dinge gebraucht. Und dann am Ende des Projektes alles, was noch offen war, auf den letzten Drücker elerdigt. Da habe ich dann besser geplant, mit einem Zeitplan. Das werde ich beim nächsten Projekt von Anfang an machen und auch, dass alles im Kanban Board eingetragen wird und auf einem Zeitplan festgehalten wird. Damit es am Ende des Projekts keinen Stress und keine Nachtschichten gibt. 
+Ich habe bei diesem Projekt viel gelernt, was ich bei der nächsten Semesterarbeit besser machen werde. Sicherlich bei der Planung und dem strukturierten Arbeiten, ich habe das Projekt ohne genaue Planung begonnen und einfach drauflos gearbeitet. Leider habe ich so viel Zeit für unwichtige Dinge gebraucht. Und dann am Ende des Projektes alles, was noch offen war, auf den letzten Drücker erledigt. Da habe ich dann besser geplant, mit einem Zeitplan. Das werde ich beim nächsten Projekt von Anfang an machen und auch, dass alles im Kanban Board eingetragen wird und auf einem Zeitplan festgehalten wird. Damit es am Ende des Projekts keinen Stress und keine Nachtschichten gibt. 
 
 
 ### Status Prozentual

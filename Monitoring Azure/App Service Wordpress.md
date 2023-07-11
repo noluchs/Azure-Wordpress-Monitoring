@@ -1,6 +1,9 @@
 # App Service Wordpress
+
+
 ## Action Group
 
+Die Action Gruppe ist dazu da um zu definieren was, wenn ein alert ausgelöst wird. In diesem Falll wird eine Mail an den Administrator gemacht.
 ![](attachments/Pasted%20image%2020230703144105.png)
 ![](attachments/Pasted%20image%2020230703144225.png)
 ![](attachments/Pasted%20image%2020230703145655.png)
