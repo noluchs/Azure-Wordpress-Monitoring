@@ -1,6 +1,7 @@
 # Aufbau AppService Wordpress MySQL Cli
 
-Hier wird erklär wie die ganze WordPress und Datenbank Umgebung aufgebaut wird. Dies wird über Azure CLI gemacht. Falls man die ganze Umgebung mit einem Script installieren möchte, kann dies verwendet werden: ![](Script/WordPressOnAzure.sh)
+Hier wird erklär wie die ganze WordPress und Datenbank Umgebung aufgebaut wird. Dies wird über Azure CLI gemacht. Falls man die ganze Umgebung mit einem Script installieren möchte, kann dies verwendet werden:![](Script/WordPressOnAzure.sh) 
+
 
 ### Azure Gruppe erstellen
 
@@ -25,7 +26,7 @@ az webapp create -n lucn-azwmo -g azwpmo-appservice -p azwpmo-appservice-plan -i
 
 ### Azure DB for MYSQL Erstellen
 
-Dies erstellt eine MYSQL Instanz mit einem Admin Account der ein definiertes Passwort hat. Dazu wird die SSL Verschlüsslung deaktiviert, damit ohne Zertifikat auf die DB Zugegriffen werden kann.
+Dies erstellt eine MYSQL Instanz mit einem Admin Account, deren definiertes Passwort hat. Dazu wird die SSL Verschlüsslung deaktiviert, damit ohne Zertifikat auf die DB Zugegriffen werden kann.
 ```
 az mysql server create -g azwpmo-appservice -n azwpmo-mysql  --admin-user wpadmin --admin-password "ayA05I92A@Jh1aq&RtiLQRwyU" -l switzerlandnorth  --ssl-enforcement Disabled --sku-name B_Gen5_1 --version 5.7
 ```
@@ -47,7 +48,7 @@ az mysql db create --resource-group azwpmo-appservice --server-name azwpmo-mysql
 ## Netzwerk
 
 
-### Create the virtual network
+### Virtuelles Netzwerk erstellen
 
 ```
 az network vnet create \   
@@ -56,7 +57,7 @@ az network vnet create \
 --address-prefixes 10.0.0.0/16
 ```
 
-### Create subnet named appService
+### Subnetz für AppService erstellen
 
 
 ```
@@ -67,7 +68,7 @@ az network vnet subnet create \
 --address-prefixes 10.0.1.0/24 
 ```
 
-### Create subnet named database
+### Subnetz für database erstellen
 
 ```
 az network vnet subnet create \
@@ -91,8 +92,11 @@ az network vnet subnet update \
 --resource-group azwpmo-appservice \
 --delegations Microsoft.DBforMySQL/servers
 ```
+
+
 #### WordPress mit DB verbinden
-hier setzen wir mithilfe von 
+
+Hier werden die DB Informationen bei dem AppService 
 
 ```
 az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings \ WORDPRESS_DB_HOST= azwpmo-mysql.mysql.database.azure.com \

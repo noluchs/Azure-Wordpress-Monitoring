@@ -20,18 +20,20 @@ Monitoring beinhaltet folgende Punkte:
 
 ## Inhaltsverzeichnis
 
-[Aufbau App Service & DB](Aufbau%20Azure%20Wordpress/readme.md)
-#### Aufbau Monitoring
-[App Service Wordpress](Monitoring%20Azure/App%20Service%20Wordpress.md)
-[Azure MySQL](Monitoring%20Azure/Azure%20MySQL.md)
+* [Aufbau App Service & DB](Aufbau%20Azure%20Wordpress/readme.md)
 
-#### Projektplanung
-##### Sprint
-[Erster Sprint](Sprint/Erster%20Sprint.md)
-[Zweiter Sprint](Sprint/Zweiter%20Sprint.md)
-[Dritter Sprint](Sprint/Dritter%20Sprint.md)
-##### Kanban
-[Kanban](Planung/Kanban.md)
+* [Monitoring Einrichten](Monitoring%20Azure/readme.md)
+	* [App Service Wordpress](Monitoring%20Azure/App%20Service%20Wordpress.md)
+	* [Azure MySQL](Monitoring%20Azure/Azure%20MySQL.md)
+	* [Load Testing Website](Monitoring%20Azure/Load%20Testing%20Website.md)
+* Sprint
+	* [Erster Sprint](Sprint/Erster%20Sprint.md)
+	* [Zweiter Sprint](Sprint/Zweiter%20Sprint.md)
+	* [Dritter Sprint](Sprint/Dritter%20Sprint.md)
+* [Kanban](Planung/Kanban.md)
+
+
+
 
 ## Zeitplan
 
@@ -70,7 +72,7 @@ In dieser Phase wird ein App-Service (Wordpress) und der Dienst Azure Database f
 
 - Erstellung eines App-Service (Wordpress) auf Azure (20.04.2023 - 15.05.2023)
 - Erstellung des Dienstes Azure Database for MySQL (DB Wordpress) auf Azure (20.04.2023 - 15.05.2023)
-- Automatiseren per CLI (Script) das Aufsetzen von App Serivce & der Azure MySQL DB
+- Automatisieren per CLI (Script) das Aufsetzen von App Serivce & der Azure MySQL DB
 
 ### Phase 3: Umsetzung von Azure Monitoring
 
@@ -98,3 +100,6 @@ In dieser Phase werden offene Aufgaben erledigt und die Dokumentation fertiggest
 
 
 
+
+
+Diese Dokumentation ist in Obsidian geschrieben für die beste Qualität, die Arbeit mit Obsidian öffnen [Obsidian Herunterladen](https://obsidian.md/)

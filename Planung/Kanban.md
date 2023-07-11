@@ -14,37 +14,36 @@ kanban-plugin: basic
 
 ## Spezifikation
 
-- [ ] Montoring Testen
 
 
 ## Impletation
 
 - [ ] Dokumentieren
-- [ ] Monitoring Aufbauen
-- [ ] Montoring Uptime Dienst
-- [ ] Monitoring ·Ereichbarkeit Website über externe IP und DNS
-- [ ] Monitroring Speicherplatz DB
-- [ ] Monitoring & Allert Kosten
 
 
 ## Intergration
 
-- [ ] DB mit WP Verbinden
-- [ ] Monitoring Ressourcennutzung
 
 
 ## Test
 
+- [ ] Montoring Testen
 
 
 ## Erledigt
 
-**Fertiggestellt**
 - [x] Wordpress Installation Automatisieren
 - [x] Azure Monitoring EInlesen
 - [x] Wordpress Instalieren
 - [x] Linux VM Aufsetzen
 - [x] DB Aufbau
+- [ ] Monitoring ·Ereichbarkeit Website über externe IP und DNS
+- [ ] Monitoring Aufbauen
+- [ ] Montoring Uptime Dienst
+- [ ] DB mit WP Verbinden
+- [ ] Monitoring Ressourcennutzung
+- [ ] Monitroring Speicherplatz DB
+- [ ] Monitoring & Allert Kosten
 
 
 
