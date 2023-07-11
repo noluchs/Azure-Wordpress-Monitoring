@@ -5,5 +5,11 @@
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./attachments",
   "useMarkdownLinks": true,
-  "foldHeading": false
+  "foldHeading": false,
+  "spellcheckDictionary": [
+    "hies",
+    "hiess",
+    " grösere",
+    "abschliessen"
+  ]
 }

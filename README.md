@@ -21,7 +21,7 @@ Monitoring beinhaltet folgende Punkte:
 ## Inhaltsverzeichnis
 
 * [Aufbau App Service & DB](Aufbau%20Azure%20Wordpress/readme.md)
-
+	* [Script Azure CLI Wordpress](Aufbau%20Azure%20Wordpress/Script/Azure-CLI-WordPress.sh)
 * [Monitoring Einrichten](Monitoring%20Azure/readme.md)
 	* [App Service Wordpress](Monitoring%20Azure/App%20Service%20Wordpress.md)
 	* [Azure MySQL](Monitoring%20Azure/Azure%20MySQL.md)
@@ -31,6 +31,8 @@ Monitoring beinhaltet folgende Punkte:
 	* [Zweiter Sprint](Sprint/Zweiter%20Sprint.md)
 	* [Dritter Sprint](Sprint/Dritter%20Sprint.md)
 * [Kanban](Planung/Kanban.md)
+* [Probleme](Probleme.md)
+* [Ressourcen](Ressourcen.md)
 
 
 

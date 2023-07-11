@@ -18,7 +18,6 @@ kanban-plugin: basic
 
 ## Impletation
 
-- [ ] Dokumentieren
 
 
 ## Intergration
@@ -27,7 +26,7 @@ kanban-plugin: basic
 
 ## Test
 
-- [ ] Montoring Testen
+- [ ] Dokumentieren
 
 
 ## Erledigt
@@ -44,6 +43,7 @@ kanban-plugin: basic
 - [ ] Monitoring Ressourcennutzung
 - [ ] Monitroring Speicherplatz DB
 - [ ] Monitoring & Allert Kosten
+- [ ] Montoring Testen
 
 
 

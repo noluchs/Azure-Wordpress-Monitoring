@@ -1,21 +1,26 @@
-# Aufbau AppService Wordpress MySQL Cli
+# Aufbau AppService WordPress MySQL Cli
 
-Hier wird erklär wie die ganze WordPress und Datenbank Umgebung aufgebaut wird. Dies wird über Azure CLI gemacht. Falls man die ganze Umgebung mit einem Script installieren möchte, kann dies verwendet werden:![](Script/WordPressOnAzure.sh) 
+Hier wird die ganze WordPress und Datenbank Umgebung aufgebaut und . Dies wird über Azure CLI gemacht. Falls man die ganze Umgebung mit einem Script installieren möchte, kann dies verwendet werden: [Script Azure CLI WordPress](Script/Azure-CLI-WordPress.sh). Danach werden von der alten Umgebung die Daten übertragen zu Azure.
 
+[Azure Wordpress initialisieren](##Aufbau)
+[Wordpress Migration](##Migration)
 
-### Azure Gruppe erstellen
+## Aufbau
+### Azure Ressource Gruppe erstellen
 
+Hier erstellen wir die Gruppe, wo dann alle Ressourcen hinzugefügt werden.
 ```
 az group create -l switzerlandnorth -n azwpmo-appservice
 ```
 
 ### App Service Plan Erstellen
-mit diesem erstellen wir einen App-Service Plan, der auf Linux basiert. Für unsere Instanz nehmen wir das Pricinglevel B1. 
+
+ Erstellen wir einen AppService Plan, der auf Linux basiert. Für unsere Instanz nehmen wir das Pricing level B1. Und die Region Switzerland North
 ```
 az appservice plan create -g azwpmo-appservice -n azwpmo-appservice-plan  --is-linux -l switzerlandnorth --sku B1
 ```
 
-### Container mit Wordpress erstellen
+### Container mit WordPress erstellen
 jetzt müssen wir noch die Umgebung erstellen, dies ist 
 ```
 az webapp create -n lucn-azwmo -g azwpmo-appservice -p azwpmo-appservice-plan -i "wordpress"
@@ -45,11 +50,12 @@ Hier wird nun die Datenbank für WordPress erstellt
 az mysql db create --resource-group azwpmo-appservice --server-name azwpmo-mysql --name wordpres
 ```
 
-## Netzwerk
+### Netzwerk
 
 
 ### Virtuelles Netzwerk erstellen
 
+Dies erstellt ein vnet mit dem Adres berech von 10.0.0.0/16
 ```
 az network vnet create \   
 --name lucn-wordpress \   
@@ -59,7 +65,7 @@ az network vnet create \
 
 ### Subnetz für AppService erstellen
 
-
+Hier erstellen wir ein Subnetzwerk für den AppService mit dem Range 10.0.1.0/24 
 ```
 az network vnet subnet create \   
 --name appService \   
@@ -70,6 +76,7 @@ az network vnet subnet create \
 
 ### Subnetz für database erstellen
 
+Hier erstellen wir ein Subnetzwerk für die MySQL Instanzen mit dem Range 10.0.2.0/24 
 ```
 az network vnet subnet create \
 --name database \
@@ -78,14 +85,20 @@ az network vnet subnet create \
 --address-prefixes 10.0.2.0/24 
 ```
 
-### Delegate Subnets to azure services 
+### Subnetze mit Azure Service verbinden
 
+Hier verbinden wir das Subnetzwerk appService mit den Azure Web Services
 ```
 az network vnet subnet update \
 --name appService \
 --vnet-name lucn-wordpress \
 --resource-group azwpmo-appservice \
 --delegations Microsoft.Web/serverFarms 
+```
+
+
+Hier verbinden wir das Subnetzwerk Database mit dem MySQL Server
+```
 az network vnet subnet update \
 --name database \ 
 --vnet-name lucn-wordpress \
@@ -96,7 +109,7 @@ az network vnet subnet update \
 
 #### WordPress mit DB verbinden
 
-Hier werden die DB Informationen bei dem AppService 
+Hier werden die DB Informationen bei dem AppService in der Wordpress instanz von der DB hinterlegt.
 
 ```
 az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings \ WORDPRESS_DB_HOST= azwpmo-mysql.mysql.database.azure.com \
@@ -107,6 +120,9 @@ WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
 
 ### WordPress Initialisieren
 
+
+Hier wird nun WordPress fertig eingerichtet, hierfür muss man auf die Domaine gehen die einem Azure zu verfügung gibt und muss noch diverses zur Webseite wie Name und Login Daten angeben. Danach wird die Seite initlisiert.
+
 Login 
 Username: w4s_noah
 Password: Lq8LvRWW3fDvGO0TTK
@@ -114,28 +130,37 @@ Password: Lq8LvRWW3fDvGO0TTK
 ![](attachments/Pasted%20image%2020230711110458.png)
 ![](attachments/Pasted%20image%2020230711111246.png)
 
-### WordPress Migration
+
+
+## Migration
 #### Backup Machen
-![](attachments/Pasted%20image%2020230711121207.png)
 
-![](attachments/Pasted%20image%2020230711121104.png)
+Hier machen wir bei der alten Umgebung eine Sicherung mithilfe des Plugin [Backup Migration](https://backupbliss.com/)damit wir danach dies auf der Azure Umgebung einspielen können.
+![](attachments/Pasted%20image%2020230711224731.png)
+
+![](attachments/Pasted%20image%2020230711224834.png)
 
 
-![](attachments/Pasted%20image%2020230711121253.png)
+
+
+
+
 
 
 
 #### Backup Einspielen
 
-![](attachments/Pasted%20image%2020230711121342.png)
+Auf der Azure Umggeubung im Wordpress das Plugin [Backup Migration](https://backupbliss.com/) installieren und dann unter Manage & restore Backups die Sicherung zurückspielen
 
-![](attachments/Pasted%20image%2020230711121402.png)
+![](attachments/Pasted%20image%2020230711225235.png)
 
+Dies geht einen moment aber danach sollte der Inhalt übertagen sein.
 
+![](attachments/Pasted%20image%2020230711225248.png)
 
+Nun läuft die Seite bei Azure
 
-
-
+![](attachments/Pasted%20image%2020230711230718.png)
 
 
 
@@ -149,6 +174,8 @@ Password: Lq8LvRWW3fDvGO0TTK
 ![](attachments/Pasted%20image%2020230705215022.png)
 ![](attachments/Pasted%20image%2020230705215038.png)
 ![](attachments/Pasted%20image%2020230711104806.png)
+
+
 ### Aufräumen
 
 ```
