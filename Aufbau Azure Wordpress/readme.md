@@ -1,8 +1,6 @@
 # Aufbau AppService Wordpress MySQL Cli
 
-
-
-
+Hier wird erklär wie die ganze WordPress und Datenbank Umgebung aufgebaut wird. Dies wird über Azure CLI gemacht. Falls man die ganze Umgebung mit einem Script installieren möchte, kann dies verwendet werden: ![](Script/WordPressOnAzure.sh)
 
 ### Azure Gruppe erstellen
 
@@ -11,7 +9,7 @@ az group create -l switzerlandnorth -n azwpmo-appservice
 ```
 
 ### App Service Plan Erstellen
-Mit diesem erstellen wir einen App-Service plan, der auf Linux basiert. Für unsere Instanz nehmen wir das Pricinglevel B1. 
+mit diesem erstellen wir einen App-Service Plan, der auf Linux basiert. Für unsere Instanz nehmen wir das Pricinglevel B1. 
 ```
 az appservice plan create -g azwpmo-appservice -n azwpmo-appservice-plan  --is-linux -l switzerlandnorth --sku B1
 ```

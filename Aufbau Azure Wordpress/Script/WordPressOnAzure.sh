@@ -1,5 +1,32 @@
 #!/bin/bash
 
+
+###################################################################
+#
+#BESCHREIBUNG:
+#
+#Dieses Script erstellt auf Azure über die Azure Cli eine Wordpress Umgebung. Hierfür werden folgende Kompoponten verwendet:
+# Azure AppService
+# Azure MySQL
+# Azure VNET
+# 
+# AUTHOR:
+#
+# Noah Luchsinger
+#
+# VERSION:
+#
+# 1.0
+#
+#VERSIONSKONTROLLE:
+#
+#Version   Datum         Name                    Beschreibung
+#
+# 1.0      11.07.2023     Noah Luchsinger         Script erstellt
+#
+################################################################
+
+
 # Variablen
 $resourceGroup=azwpmo-appservice
 $location=switzerlandnorth
