@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sprint/Dritter Sprint.md",
+                "file": "Aufbau Azure Wordpress/readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sprint/Dritter Sprint.md",
+                "file": "Aufbau Azure Wordpress/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sprint/Dritter Sprint.md",
+                "file": "Aufbau Azure Wordpress/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sprint/Dritter Sprint.md"
+                "file": "Aufbau Azure Wordpress/readme.md"
               }
             }
           }
@@ -147,41 +147,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "canvas:Neuen Canvas erstellen": false,
-      "switcher:Schnellauswahl öffnen": false,
-      "graph:Graphen-Ansicht öffnen": false,
-      "daily-notes:Heutige Notiz öffnen": false,
-      "templates:Vorlage einfügen": false,
-      "command-palette:Befehlspalette öffnen": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
     }
   },
   "active": "846474280bdef8b7",
   "lastOpenFiles": [
-    "Sprint/Zweiter Sprint.md",
-    "Sprint/Dritter Sprint.md",
-    "Monitoring Azure/readme.md",
-    "Monitoring Azure/Load Testing Website.md",
-    "Monitoring Azure/Azure MySQL.md",
-    "Monitoring Azure/App Service Wordpress.md",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711121402.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711121342.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711121253.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711121232.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711121207.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711121104.png",
     "Planung/Planung 3 Spint Abschluss.md",
+    "Planung/Kanban.md",
     "Aufbau Azure Wordpress/readme.md",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711111620.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711111246.png",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711110458.png",
+    "Aufbau Azure Wordpress/Script/WordePressonAzure.sh",
+    "Aufbau Azure Wordpress/Script/Neues Textdokument.txt",
+    "Aufbau Azure Wordpress/Script/Neuer Ordner",
+    "Aufbau Azure Wordpress/Script",
+    "Aufbau Azure Wordpress/Neuer Ordner",
     "Probleme.md",
     "README.md",
+    "Aufbau Azure Wordpress/attachments/Pasted image 20230711104806.png",
+    "Monitoring Azure/App Service Wordpress.md",
+    "Monitoring Azure/Azure MySQL.md",
+    "Sprint/Dritter Sprint.md",
+    "Sprint/Zweiter Sprint.md",
+    "Monitoring Azure/readme.md",
+    "Monitoring Azure/Load Testing Website.md",
     "Sprint/Erster Sprint.md",
     "Monitoring Azure/attachments/Pasted image 20230709221441.png",
-    "Planung/Kanban.md",
-    "Monitoring Azure/attachments/Pasted image 20230709220815.png",
     "Aufbau Azure Wordpress/Aufbau Wordpress Old.md",
     "Unbenannt.canvas",
-    "Monitoring Azure/attachments/Pasted image 20230709142311.png",
-    "Monitoring Azure/attachments/Pasted image 20230708171636.png",
     "Ressourcen.md",
-    "attachments/Pasted image 20230705222400.png",
-    "Sprint/attachments/Pasted image 20230615214543.png",
-    "Sprint/attachments/Pasted image 20230615204150.png",
-    "Monitoring Azure/attachments/Pasted image 20230706232223.png",
-    "Monitoring Azure/attachments/Pasted image 20230706232139.png",
-    "Monitoring Azure/attachments/Pasted image 20230706232116.png",
     "Planung",
     "2023-06-21.md",
     "Sprint/attachments",
@@ -190,8 +196,6 @@
     "attachments",
     "Unbenannt 1.canvas",
     "Aufbau Azure Wordpress/attachments",
-    "Monitoring Azure/attachments",
-    "Aufbau.md",
-    "Monitoring Azure/Unbenannt"
+    "Aufbau.md"
   ]
 }

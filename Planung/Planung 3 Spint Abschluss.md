@@ -18,9 +18,9 @@ Dies ist die Planung für den Sprint 3 Abschluss. Das Ziel ist, dass ich dadurch
 ## Samstag 9Uhr- 12 Uhr, 13 Uhr -17 Uhr
 ### Planung
 
-- [ ] reale Website for Demo
+- [x] reale Website for Demo
 - [ ] Load Testing der Website
-- [x] Aufbau Umgebung sauber Dokumentation Fertig
+- [ ] Aufbau Umgebung sauber Dokumentation Fertig
 
 
 ## Sonntag 11 -19 Uhr, 20 Uhr - Ziele umgesetzt
