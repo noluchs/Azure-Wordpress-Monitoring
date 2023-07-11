@@ -1,3 +1,4 @@
+# App Service Wordpress
 ## Action Group
 
 ![](attachments/Pasted%20image%2020230703144105.png)
@@ -35,7 +36,7 @@
 Um eine monatlich Meldung was der APP Service gekostet hat habe ich einen Task erstellt, der mir jeden Monat eine Meldung macht. 
 ![](attachments/Pasted%20image%2020230705215432.png)
 ![](attachments/Pasted%20image%2020230705215554.png)
-Alert
+
 
 ### Availability Website
 ### Domain

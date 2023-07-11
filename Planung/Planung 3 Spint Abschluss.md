@@ -20,13 +20,13 @@ Dies ist die Planung für den Sprint 3 Abschluss. Das Ziel ist, dass ich dadurch
 
 - [ ] reale Website for Demo
 - [ ] Load Testing der Website
-- [ ] Aufbau Umgebung sauber Dokumentation Fertig
+- [x] Aufbau Umgebung sauber Dokumentation Fertig
 
 
 ## Sonntag 11 -19 Uhr, 20 Uhr - Ziele umgesetzt
 ### Planung
 - [ ] Monitoring Teil Dokumentieren 6 Stunden
-- [ ] Intro Schreiben  mit Verlinkung auf alle Unterseiten
+- [x] Intro Schreiben  mit Verlinkung auf alle Unterseiten
 - [x] Kriterien für Bewertung lesen
 
 

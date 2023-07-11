@@ -22,17 +22,7 @@ jetzt müssen wir noch die Umgebung erstellen, dies ist
 az webapp create -n lucn-azwmo -g azwpmo-appservice -p azwpmo-appservice-plan -i "wordpress"
 ```
 
-## Azure Database for MySQL - Flexible Server ertsellen
-
-
-```
-az mysql flexible-server create --resource-group myresourcegroup --location westus2 --vnet VNETName
-```
-
-
-
-
-
+## Azure Database for MySQL - Flexible Server erstellen
 
 
 ### Azure DB for MYSQL Erstellen
@@ -119,7 +109,7 @@ az webapp config appsettings set -n lucn-azwmo -g azwpmo-appservice --settings W
 WORDPRESS_DB_PASSWORD="J9!3EklqIl1-LS,am3f"
 ```
 
-### VVerbindenApp Service DB
+### VerbindenApp Service DB
 ![](attachments/Pasted%20image%2020230705215022.png)
 ![](attachments/Pasted%20image%2020230705215038.png)
 

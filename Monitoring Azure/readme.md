@@ -10,6 +10,13 @@ In diesem Projekt setzen wir Azure Monitoring ein, um unsere Umgebung zu überwa
 
 
 
+## Umsetzung
+[App Service Wordpress](App%20Service%20Wordpress.md)
+[Azure MySQL](Azure%20MySQL.md)
+
+## Testen
+[Load Testing Website](Load%20Testing%20Website.md)
+
 
 
 
