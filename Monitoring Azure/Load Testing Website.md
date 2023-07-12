@@ -1,12 +1,12 @@
 # Load Testing Website
 
 
-Um die Performance der Website zu testen, bietet Azure den Dienst Azure Load Testing an, mit dem die Performance und Skalierbarkeit von Webanwendungen getestet werden kann. Mit Azure Load Testing können verschiedene Szenarien simuliert werden, wie zum Beispiel hohe Nutzerzahlen, geografische Verteilung oder Netzwerklatenz. Azure Load Testing generiert Metriken und Berichte, die zeigen, wie die Webanwendung unter Last reagiert. Diese Informationen können genutzt werden, um Alarme zu überprüfen, die bei bestimmten Schwellenwerten ausgelöst werden sollen. Was in unserem Fall im Fokus stand
+Azure bietet den Dienst Azure Load Testing an, um die Leistungsfähigkeit von Websites zu testen. Dieser Dienst ermöglicht es, die Performance und Skalierbarkeit von Webanwendungen zu überprüfen. Dabei können verschiedene Szenarien simuliert werden, wie zum Beispiel hohe Nutzerzahlen, geografische Verteilung oder Netzwerklatenz. Azure Load Testing erzeugt Metriken und Berichte, die Auskunft darüber geben, wie die Webanwendung unter Last reagiert. Diese Informationen können genutzt werden, um die Alarme zu überprüfen, die bei bestimmten Schwellenwerten ausgelöst werden sollen. In unserem Fall lag der Fokus genau darauf.
 
 
 ## Einrichten
 
-Als erstes konfiguriert man eine load testing resource von dem man dan die Test starten kann.
+Als erstes konfiguriert man eine load Testing Ressource von dem man dann die Tests starten kann.
 ![](attachments/Pasted%20image%2020230708171636.png)
 
 

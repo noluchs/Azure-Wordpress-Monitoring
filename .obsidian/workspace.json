@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monitoring Azure/Azure MySQL.md",
+                "file": "Aufbau Azure Wordpress/readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Monitoring Azure/Azure MySQL.md",
+                "file": "Aufbau Azure Wordpress/readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Monitoring Azure/Azure MySQL.md",
+                "file": "Aufbau Azure Wordpress/readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Monitoring Azure/Azure MySQL.md"
+                "file": "Aufbau Azure Wordpress/readme.md"
               }
             }
           }
@@ -157,21 +157,21 @@
   },
   "active": "846474280bdef8b7",
   "lastOpenFiles": [
+    "Sprint/Dritter Sprint.md",
+    "Planung/Planung 3 Sprint Abschluss.md",
+    "Monitoring Azure/Load Testing Website.md",
+    "Monitoring Azure/readme.md",
+    "Probleme.md",
+    "README.md",
+    "Aufbau Azure Wordpress/readme.md",
+    "Monitoring Azure/Azure MySQL.md",
     "Monitoring Azure/attachments/Pasted image 20230712003631.png",
     "Monitoring Azure/attachments/Pasted image 20230712003532.png",
     "Monitoring Azure/App Service Wordpress.md",
-    "Monitoring Azure/Load Testing Website.md",
-    "Monitoring Azure/Azure MySQL.md",
-    "Sprint/Dritter Sprint.md",
     "Sprint/Zweiter Sprint.md",
     "Sprint/Erster Sprint.md",
     "Ressourcen.md",
-    "README.md",
-    "Probleme.md",
-    "Monitoring Azure/readme.md",
-    "Aufbau Azure Wordpress/readme.md",
     "Planung/Kanban.md",
-    "Planung/Planung 3 Sprint Abschluss.md",
     "Sprint/attachments/Pasted image 20230711234852.png",
     "Monitoring Azure/attachments/Pasted image 20230711233113.png",
     "Monitoring Azure/attachments/Pasted image 20230711233039.png",
@@ -180,7 +180,6 @@
     "Monitoring Azure/attachments/Pasted image 20230711231021.png",
     "Aufbau Azure Wordpress/attachments/Pasted image 20230711230718.png",
     "Aufbau Azure Wordpress/attachments/Pasted image 20230711225248.png",
-    "Aufbau Azure Wordpress/attachments/Pasted image 20230711225235.png",
     "Aufbau Azure Wordpress/Script/Azure-CLI-WordPress.sh",
     "Aufbau Azure Wordpress/Script/Neues Textdokument.txt",
     "Aufbau Azure Wordpress/Script/Neuer Ordner",
